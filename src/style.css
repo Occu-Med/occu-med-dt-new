@@ -1,0 +1,88 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table td {
+  font-size: 11px;
+}
+tr {
+  height: 40px;
+}
+.table th {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.table thead tr {
+  background-image: linear-gradient(#fafafa, #e9e9e9);
+}
+
+.dataTables_info {
+  font-size: 11px;
+}
+
+.custom-select {
+  font-size: 11px;
+}
+
+label {
+  font-size: 11px;
+}
+
+.selected {
+  background-color: #fdfdd4 !important;
+  font-weight: bold;
+  /* color: white; */
+}
+
+.blue {
+  background-color: #4d9cc6;
+}
+
+.green {
+  background-color: #8ab852;
+}
+
+.purple {
+  background-color: #9932cc;
+}
+
+.orange {
+  background-color: #cd9a3d;
+}
+
+.red {
+  background-color: #be6969;
+}
+
+.grey {
+  background-color: #9a9a9a;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: left;
+}
+div.dataTables_wrapper div.dataTables_length {
+  text-align: left;
+}
+.pagination .page-item.active .page-link {
+  border-color: #5392d0;
+  background-color: #5392d0;
+}
+div.dataTables_wrapper
+  div.dataTables_paginate
+  ul.pagination
+  .page-item.active
+  .page-link:focus {
+  background-color: #5392d0;
+}
+.pagination .page-item.active .page-link:hover {
+  border-color: #5392d0;
+  background-color: #5392d0;
+}
